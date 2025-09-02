@@ -24,7 +24,9 @@ jobs:
           JF_URL: https://${{ vars.JF_URL }}
           JF_PROJECT: "barber-shop"
         with:
+         version: latest
          oidc-provider-name: github-barber-shop
+         
       - name: Generate .npmrc
         run: | 
            jfrog c show
