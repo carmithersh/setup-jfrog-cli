@@ -39,8 +39,8 @@ jobs:
         if: runner.os == 'Linux'
 
       # Install and run tests
-      - name: Install
-        run: jf npm i --project barber-shop 
+     # - name: Install
+     #   run: jf npm i --project barber-shop 
 
       - name: Install SonarQube Scanner
         run: |          
