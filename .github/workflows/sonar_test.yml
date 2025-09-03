@@ -1,4 +1,4 @@
-name: "Test-with-sonar"
+name: "Test-with-|Sonar"
 on: [push]
 permissions:
       id-token: write
